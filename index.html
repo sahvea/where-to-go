@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Куда я поеду</title>
-</head>
-<body class="page">
-  <header class="header"></header>
-  <main class="content">
 
-  </main>
-  <footer class="footer"></footer>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Куда я поеду</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <nav class="header__navigation">
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="#" class="header__list-link" target="_self">Мечты</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-link" target="_self">Ожидание</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-link" target="_self">Реальность</a>
+                </li>
+            </ul>
+            <a href="#" class="header__list-link" target="_self">Пожаловаться</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="intro">
+            <h2 class="intro__subtitle">Куда я поеду</h2>
+            <img src="./images/intro-image.jpeg" alt="Самолет" class="intro__img">
+            <h1 class="intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+        </section>
+        <section class="places">
+            <article class="place">
+                <img src="./images/places-forest.jpeg" alt="Лес" class="place__img">
+                <h2 class="place__title">Поеду в лес</h2>
+                <div class="place__paragraph">
+                    <p class="place__text">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+                    <p class="place__text">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer"></footer>
 </body>
+
 </html>
