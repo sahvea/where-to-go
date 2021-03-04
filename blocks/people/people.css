@@ -1,3 +1,6 @@
 .people {
-    padding: 117px 76px 107px 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }

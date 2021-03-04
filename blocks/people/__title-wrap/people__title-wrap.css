@@ -1,0 +1,7 @@
+.people__title-wrap {
+  max-width: 350px;
+  min-height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

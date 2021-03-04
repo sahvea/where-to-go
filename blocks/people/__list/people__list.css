@@ -1,8 +1,9 @@
 .people__list {
-    list-style: none;
-    margin: 0;
-    margin-top: 106px;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+  margin: 104px 0 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }

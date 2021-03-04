@@ -1,0 +1,4 @@
+.page__header {
+  margin: 42px auto 0;
+  width: calc(100% - (60px*2));
+}

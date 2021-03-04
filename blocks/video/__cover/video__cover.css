@@ -1,0 +1,8 @@
+.video__cover {
+  width: 100%;
+  min-height: 540px;
+  background: url('../../../images/video.jpg') center center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

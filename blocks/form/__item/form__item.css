@@ -1,0 +1,21 @@
+.form__item {
+  margin-bottom: 17px;
+  width: 100%;
+  height: 26px;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  padding: 5px 14px;
+}
+
+.form__item:focus {
+  box-shadow: 0 0 8px #fed2b0;
+}
+
+.form__item::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #000;
+}

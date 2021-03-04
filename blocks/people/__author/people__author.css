@@ -1,0 +1,8 @@
+.people__author {
+  margin: 0;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}

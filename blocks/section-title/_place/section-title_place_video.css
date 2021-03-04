@@ -1,0 +1,9 @@
+.section-title_place_video {
+  font-size: 32px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  position: absolute;
+  top: 110px;
+  left: 60px;
+  z-index: 1;
+}

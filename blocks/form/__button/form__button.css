@@ -1,0 +1,20 @@
+.form__button {
+  cursor: pointer;
+  align-self: flex-end;
+  width: 173px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  background-color: #000;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.015em;
+  color: #fff;
+  transition: .3s linear;
+}
+
+.form__button:hover {
+  opacity: .8;
+}
