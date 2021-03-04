@@ -1,0 +1,4 @@
+.page__people {
+  margin: 115px auto 0;
+  width: calc(100% - (60px*2));
+}

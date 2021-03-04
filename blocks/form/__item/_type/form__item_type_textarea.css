@@ -1,0 +1,4 @@
+.form__item_type_textarea {
+  min-height: 86px;
+  resize: none;
+}

@@ -1,0 +1,11 @@
+.video__play-icon {
+  margin: auto;
+  cursor: pointer;
+  width: 65px;
+  opacity: .4;
+  transition: 0.2s linear;
+}
+
+.video__play-icon:hover {
+  opacity: .6;
+}
