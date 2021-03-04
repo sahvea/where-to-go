@@ -1,0 +1,4 @@
+.page__intro {
+  margin: 73px 60px 0;
+  /* width: calc(100% - (60px*2)); */
+}

@@ -2,6 +2,9 @@
 @import url('../vendor/fonts/fonts.css');
 
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__header/page__header.css');
+@import url('../blocks/page/__intro/page__intro.css');
+@import url('../blocks/page/__places/page__places.css');
 @import url('../blocks/page/__people/page__people.css');
 @import url('../blocks/page/__journey/page__journey.css');
 
@@ -9,7 +12,7 @@
 @import url('../blocks/header/__navigation/header__navigation.css');
 @import url('../blocks/header/__list/header__list.css');
 @import url('../blocks/header/__list-item/header__list-item.css');
-@import url('../blocks/header/__list-link/header__list-link.css');
+@import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/header/__complain/header__complain.css');
 
 @import url('../blocks/section-caption/section-caption.css');
@@ -20,7 +23,7 @@
 @import url('../blocks/section-title/_place/section-title_place_intro.css');
 @import url('../blocks/section-title/_place/section-title_place_journey.css');
 @import url('../blocks/section-title/_place/section-title_place_video.css');
-
+@import url('../blocks/section-title/_place/section-title_place_footer.css');
 
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__subtitle/intro__subtitle.css');
@@ -59,4 +62,3 @@
 @import url('../blocks/video/__iframe/video__iframe.css');
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__copyright/footer__copyright.css');
