@@ -1,5 +1,5 @@
 .place__text {
-    align-self: center;
-    margin-left: 62px;
-    max-width: 56%;
+  align-self: end;
+  margin-left: 62px;
+  margin-bottom: 71px;
 }
