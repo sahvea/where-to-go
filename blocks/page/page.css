@@ -4,8 +4,6 @@
     margin: 0 auto;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    color: black;
-    /* Он и так черный, не очень понимаю зачем его прописывать */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
