@@ -1,0 +1,7 @@
+.intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    padding: 73px 137px 115px 62px;
+    grid-column-gap: 110px;
+}

@@ -1,0 +1,7 @@
+/* можно снова поменять direction и как-то спозиционировать с justify-self и align-self
+ */
+
+.place__title_reverse {
+    margin-right: 62px;
+    text-align: left;
+}
