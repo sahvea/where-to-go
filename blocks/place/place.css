@@ -1,7 +1,6 @@
 .place {
-    padding-top: 115px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 64px;
+    background-color: #f9f9f9;
 }

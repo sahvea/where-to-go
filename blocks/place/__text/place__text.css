@@ -1,9 +1,4 @@
 .place__text {
-    margin: 0;
-    font-size: 12px;
-    line-height: 14px;
-}
-
-.place__text:nth-of-type(2n) {
-    margin-top: 24px;
+    align-self: center;
+    margin-left: 62px;
 }

@@ -1,0 +1,14 @@
+.place__paragraph {
+    margin: 0;
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 310px;
+}
+
+.place__paragraph:nth-of-type(2n) {
+    margin-top: 24px;
+}
+
+.place__paragraph:last-of-type {
+    margin-top: 24px;
+}

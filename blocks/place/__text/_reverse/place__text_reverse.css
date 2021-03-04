@@ -1,0 +1,6 @@
+.place__text_reverse {
+    margin-left: 0;
+    margin-right: 62px;
+    justify-self: start;
+    direction: initial;
+}

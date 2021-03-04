@@ -7,6 +7,7 @@
 @import url('../blocks/header/__list-item/header__list-item.css');
 @import url('../blocks/header/__list-link/header__list-link.css');
 @import url('../blocks/header/__complain/header__complain.css');
+@import url('../blocks/section-title/section-title.css');
 @import url('../blocks/intro/intro.css');
 @import url('../blocks/intro/__subtitle/intro__subtitle.css');
 @import url('../blocks/intro/__title/intro__title.css');
@@ -15,3 +16,13 @@
 @import url('../blocks/place/__img/place__img.css');
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__text/place__text.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
+@import url('../blocks/place/_reverse/place_reverse.css');
+@import url('../blocks/place/__title/_reverse/place__title_reverse.css');
+@import url('../blocks/place/__text/_reverse/place__text_reverse.css');
+@import url('../blocks/people/people.css');
+@import url('../blocks/people/__subtitle/people__subtitle.css');
+@import url('../blocks/people/__list/people__list.css');
+@import url('../blocks/people/__list-item/people__list-item.css');
+@import url('../blocks/people/__heading/people__heading.css');
+@import url('../blocks/people/__text/people__text.css');
