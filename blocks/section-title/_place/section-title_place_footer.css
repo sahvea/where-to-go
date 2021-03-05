@@ -1,4 +1,11 @@
 .section-title_place_footer {
   margin: auto;
   padding-bottom: 22px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .section-title_place_footer {
+    padding: 0 20px;
+  }
 }

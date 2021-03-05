@@ -2,7 +2,7 @@
     min-width: 320px;
     max-width: 1109px;
     margin: 0 auto;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

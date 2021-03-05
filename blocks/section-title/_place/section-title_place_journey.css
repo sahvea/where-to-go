@@ -2,3 +2,9 @@
   max-width: 220px;
   letter-spacing: 0.04em;
 }
+
+@media screen and (max-width: 767px) {
+  .section-title_place_journey {
+    margin-bottom: 20px;
+  }
+}

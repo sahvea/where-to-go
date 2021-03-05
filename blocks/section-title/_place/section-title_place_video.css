@@ -7,3 +7,17 @@
   left: 60px;
   z-index: 1;
 }
+
+@media screen and (max-width: 767px) {
+  .section-title_place_video {
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .section-title_place_video {
+    top: 40px;
+    left: 0;
+    padding: 0 20px;
+  }
+}

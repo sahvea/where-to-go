@@ -1,5 +1,7 @@
 .journey__form-wrap {
-  padding: 118px 0 0 60px;
+  /* padding: 118px 0 0 60px; */
+  margin-top: 21%;
+  margin-left: 11%;
   max-width: 306px;
   max-height: 315px;
   display: -webkit-box;
@@ -7,4 +9,23 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+  .journey__form-wrap {
+    margin: 12% 8%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .journey__form-wrap {
+    margin: 6%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .journey__form-wrap {
+    margin: 6% auto;
+    width: 100% - 306px;
+  }
 }

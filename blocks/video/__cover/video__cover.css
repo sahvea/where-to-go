@@ -6,3 +6,15 @@
   flex-direction: column;
   position: relative;
 }
+
+@media screen and (max-width: 767px) {
+  .video__cover {
+    min-height: 420px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .video__cover {
+    min-height: 300px;
+  }
+}

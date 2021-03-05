@@ -4,3 +4,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (max-width: 599px) {
+  .journey {
+    grid-template-columns: 1fr;
+  }
+}

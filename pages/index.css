@@ -25,8 +25,6 @@
 @import url('../blocks/section-title/_place/section-title_place_footer.css');
 
 @import url('../blocks/intro/intro.css');
-@import url('../blocks/intro/__subtitle/intro__subtitle.css');
-@import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__img/intro__img.css');
 
 @import url('../blocks/place/place.css');
@@ -54,7 +52,6 @@
 @import url('../blocks/form/__item/_type/form__item_type_textarea.css');
 @import url('../blocks/form/__button/form__button.css');
 
-@import url('../blocks/video/video.css');
 @import url('../blocks/video/__cover/video__cover.css');
 @import url('../blocks/video/__play-icon/video__play-icon.css');
 @import url('../blocks/video/__wrap/video__wrap.css');

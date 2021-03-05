@@ -9,3 +9,9 @@
 .video__play-icon:hover {
   opacity: .6;
 }
+
+@media screen and (max-width: 575px) {
+  .video__play-icon {
+    width: 55px;
+  }
+}
