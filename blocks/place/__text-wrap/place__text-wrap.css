@@ -1,0 +1,26 @@
+.place__text-wrap {
+  padding: 52px 62px 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .place__text-wrap {
+    padding: 50px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text-wrap {
+    padding: 40px 60px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .place__text-wrap {
+    padding: 30px 20px;
+  }
+}

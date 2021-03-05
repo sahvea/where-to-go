@@ -1,3 +1,15 @@
 .page__places {
   margin-top: 106px;
 }
+
+@media screen and (max-width: 991px) {
+  .page__places {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__places {
+    margin-top: 40px;
+  }
+}

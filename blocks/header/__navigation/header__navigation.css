@@ -1,5 +1,5 @@
 .header__navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }

@@ -1,7 +1,13 @@
 .form {
-  /* max-width: 306px; */
+  max-width: 306px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 599px) {
+  .form {
+    min-width: 300px;
+  }
 }

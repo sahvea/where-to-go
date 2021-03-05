@@ -1,0 +1,6 @@
+.intro__title-wrap {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}

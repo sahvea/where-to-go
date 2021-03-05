@@ -5,3 +5,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 767px) {
+  .people__title-wrap {
+    max-width: 280px;
+    min-height: 90px;
+  }
+}

@@ -1,63 +1,49 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
-
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__header/page__header.css');
 @import url('../blocks/page/__intro/page__intro.css');
 @import url('../blocks/page/__places/page__places.css');
 @import url('../blocks/page/__people/page__people.css');
 @import url('../blocks/page/__journey/page__journey.css');
-
 @import url('../blocks/header/__navigation/header__navigation.css');
 @import url('../blocks/header/__list/header__list.css');
 @import url('../blocks/header/__list-item/header__list-item.css');
 @import url('../blocks/header/__link/header__link.css');
-@import url('../blocks/header/__complain/header__complain.css');
-
 @import url('../blocks/section-caption/section-caption.css');
 @import url('../blocks/section-caption/_place/section-caption_place_intro.css');
 @import url('../blocks/section-caption/_place/section-caption_place_people.css');
-
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_place/section-title_place_intro.css');
 @import url('../blocks/section-title/_place/section-title_place_journey.css');
 @import url('../blocks/section-title/_place/section-title_place_video.css');
 @import url('../blocks/section-title/_place/section-title_place_footer.css');
-
 @import url('../blocks/intro/intro.css');
-@import url('../blocks/intro/__subtitle/intro__subtitle.css');
-@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__title-wrap/intro__title-wrap.css');
 @import url('../blocks/intro/__img/intro__img.css');
-
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__img/place__img.css');
+@import url('../blocks/place/__text-wrap/place__text-wrap.css');
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__text/place__text.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 @import url('../blocks/place/_reverse/place_reverse.css');
-@import url('../blocks/place/__title/_reverse/place__title_reverse.css');
 @import url('../blocks/place/__text/_reverse/place__text_reverse.css');
-
 @import url('../blocks/people/people.css');
 @import url('../blocks/people/__title-wrap/people__title-wrap.css');
 @import url('../blocks/people/__list/people__list.css');
 @import url('../blocks/people/__list-item/people__list-item.css');
 @import url('../blocks/people/__author/people__author.css');
 @import url('../blocks/people/__quote/people__quote.css');
-
 @import url('../blocks/journey/journey.css');
 @import url('../blocks/journey/__form-wrap/journey__form-wrap.css');
 @import url('../blocks/journey/__image/journey__image.css');
-
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__item/form__item.css');
 @import url('../blocks/form/__item/_type/form__item_type_textarea.css');
 @import url('../blocks/form/__button/form__button.css');
-
-@import url('../blocks/video/video.css');
 @import url('../blocks/video/__cover/video__cover.css');
 @import url('../blocks/video/__play-icon/video__play-icon.css');
 @import url('../blocks/video/__wrap/video__wrap.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
-
 @import url('../blocks/footer/footer.css');
