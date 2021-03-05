@@ -8,14 +8,22 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 991px) {
+  .section-title_place_video {
+    font-size: 26px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .section-title_place_video {
+    font-size: 22px;
     top: 60px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .section-title_place_video {
+    font-size: 20px;
     top: 40px;
     left: 0;
     padding: 0 20px;
