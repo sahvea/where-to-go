@@ -3,8 +3,16 @@
   font-size: 12px;
   line-height: 142%;
   max-width: 310px;
+  direction: initial;
 }
 
 .place__paragraph:first-of-type {
   margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 100%;
+    margin-top: 15px;
+  }
 }
