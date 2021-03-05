@@ -3,9 +3,16 @@
   margin-left: 11%;
   max-width: 306px;
   max-height: 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media screen and (max-width: 991px) {
@@ -23,6 +30,5 @@
 @media screen and (max-width: 599px) {
   .journey__form-wrap {
     margin: 6% auto;
-    width: 100% - 306px;
   }
 }

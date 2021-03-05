@@ -3,6 +3,7 @@
   cursor: pointer;
   width: 65px;
   opacity: .4;
+  -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 

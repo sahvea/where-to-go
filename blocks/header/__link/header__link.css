@@ -5,6 +5,7 @@
   letter-spacing: 0.015em;
   color: black;
   text-decoration: none;
+  -webkit-transition: .2s linear;
   transition: .2s linear;
 }
 
