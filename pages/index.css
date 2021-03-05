@@ -25,6 +25,7 @@
 @import url('../blocks/section-title/_place/section-title_place_footer.css');
 
 @import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title-wrap/intro__title-wrap.css');
 @import url('../blocks/intro/__img/intro__img.css');
 
 @import url('../blocks/place/place.css');

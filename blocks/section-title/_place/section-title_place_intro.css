@@ -1,3 +1,11 @@
 .section-title_place_intro {
   margin-top: 26px;
 }
+
+@media screen and (max-width: 575px) {
+  .section-title_place_intro {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+}
+

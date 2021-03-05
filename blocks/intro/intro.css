@@ -1,7 +1,10 @@
 .intro {
-  padding-right: 77px;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  grid-column-gap: 110px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 575px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
 }

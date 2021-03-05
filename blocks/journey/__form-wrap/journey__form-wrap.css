@@ -1,11 +1,8 @@
 .journey__form-wrap {
-  /* padding: 118px 0 0 60px; */
   margin-top: 21%;
   margin-left: 11%;
   max-width: 306px;
   max-height: 315px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
