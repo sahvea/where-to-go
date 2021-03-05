@@ -6,13 +6,13 @@
 @media screen and (max-width: 767px) {
   .page__header {
     margin-top: 30px;
-    width: calc(100% - (30px*2));
+    width: calc(100% - (40px*2));
   }
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 575px) {
   .page__header {
     margin-top: 20px;
-    width: calc(100% - (10px*2));
+    width: calc(100% - (20px*2));
   }
 }

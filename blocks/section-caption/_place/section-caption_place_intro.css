@@ -1,3 +1,5 @@
 .section-caption_place_intro {
-  align-self: end;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
 }

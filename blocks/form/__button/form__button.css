@@ -1,6 +1,7 @@
 .form__button {
   cursor: pointer;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   width: 173px;
   height: 28px;
   padding: 0;
@@ -12,6 +13,7 @@
   line-height: 1.2;
   letter-spacing: 0.015em;
   color: #fff;
+  -webkit-transition: .3s linear;
   transition: .3s linear;
 }
 

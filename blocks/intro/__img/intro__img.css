@@ -2,9 +2,12 @@
   margin-left: 26px;
   width: 308px;
   height: 308px;
-  justify-self: center;
-  object-fit: cover;
-  object-position: center center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 @media screen and (max-width: 767px) {
@@ -12,7 +15,8 @@
     margin-left: 15px;
     width: 280px;
     height: 240px;
-    object-position: center top;
+    -o-object-position: center top;
+       object-position: center top;
   }
 }
 

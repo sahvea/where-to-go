@@ -1,12 +1,15 @@
 .journey {
   width: 100%;
   background-color: #f2f2f2;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 599px) {
   .journey {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
