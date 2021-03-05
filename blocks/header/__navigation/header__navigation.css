@@ -1,5 +1,12 @@
 .header__navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
+
+/* @media screen and (max-width: 424px) {
+  .header__navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+} */

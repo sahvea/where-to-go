@@ -14,16 +14,16 @@
     <nav class="header__navigation">
       <ul class="header__list">
         <li class="header__list-item">
-          <a href="#" class="header__link" target="_self">Мечты</a>
+          <a href="#dreams" class="header__link" target="_self">Мечты</a>
         </li>
         <li class="header__list-item">
-          <a href="#" class="header__link" target="_self">Ожидание</a>
+          <a href="#expectation" class="header__link" target="_self">Ожидание</a>
         </li>
         <li class="header__list-item">
-          <a href="#" class="header__link" target="_self">Реальность</a>
+          <a href="#reality" class="header__link" target="_self">Реальность</a>
         </li>
       </ul>
-      <a href="#" class="header__link" target="_self">Пожаловаться</a>
+      <a href="#" class="header__link" target="_blank">Пожаловаться</a>
     </nav>
   </header>
   <main class="content">
@@ -33,7 +33,7 @@
       <h1 class="section-title section-title_place_intro">Куда я поеду сразу, как можно будет куда-то поехать</h1>
     </section>
 
-    <section class="places page__places">
+    <section class="places page__places" id="dreams">
       <article class="place">
         <img src="./images/places-forest.jpeg" alt="Лес" class="place__img">
         <div class="place__text-wrap">
@@ -91,7 +91,7 @@
       </ul>
     </section>
 
-    <section class="journey page__journey">
+    <section class="journey page__journey" id="expectation">
       <div class="journey__form-wrap">
         <h2 class="section-title section-title_place_journey">Так куда же я поеду?</h2>
         <form class="form">
@@ -103,7 +103,7 @@
       <img src="./images/airport-schedule.jpg" alt="Табло вылета" class="journey__image">
     </section>
 
-    <section class="video">
+    <section class="video" id="reality">
       <div class="video__cover" onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
         <h2 class="section-title section-title_place_video">А пока что - всё ещё сидим дома!</h2>
         <img src="./images/play.svg" alt="Плей" class="video__play-icon">
